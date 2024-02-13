@@ -4,9 +4,7 @@ public class palindrome_using_stringBuilder {
 
     public static void main(String[] args) {
 
-
-
-        Boolean result = isPalindrome("LALALA");
+        Boolean result = isPalindrome("MalayalaM");
 
 
         if (result) {
@@ -23,7 +21,10 @@ public class palindrome_using_stringBuilder {
         return str3.equalsIgnoreCase(sb.toString());
         }
 
+
+
     }
+
 
 
     
