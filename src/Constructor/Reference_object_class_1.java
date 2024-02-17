@@ -1,10 +1,10 @@
 package Constructor;
 
-public class Reference_object_class {
+public class Reference_object_class_1 {
 
     public static void main(String[] args) {
 
-        Instance_Varaiables_in_a_class test = new Instance_Varaiables_in_a_class();
+        Instance_Varaiables_in_a_class_1 test = new Instance_Varaiables_in_a_class_1();
         test.name="venkat";
         test.age=33;
 

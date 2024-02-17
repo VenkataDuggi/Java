@@ -1,6 +1,6 @@
 package Constructor;
 
-public class Instance_Varaiables_in_a_class {
+public class Instance_Varaiables_in_a_class_1 {
 
     String name;
     int age;
