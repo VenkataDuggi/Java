@@ -10,7 +10,7 @@ public class hashmap {
 
         HashMap<String, String> map = new HashMap<>();
 
-        map.put("Name","vanekat");
+        map.put("Name","venkat");
         map.put("age","10");
         map.put("city","bangalore");
 
