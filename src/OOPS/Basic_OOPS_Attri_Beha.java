@@ -9,14 +9,12 @@ public class Basic_OOPS_Attri_Beha {
    String place;
 
 
-
    // These are Behaviour's
    void eat()
    {
        System.out.println("Three times");
 
    }
-
    void gym()
    {
       System.out.println("before 8 AM");

@@ -1,9 +1,11 @@
 package OOPS.Polymorphism;
 
-public class RuntimePolymorphism_1 extends MethodOverriding_1 {  //Runtime Polymorphism is method overriding
+public class RuntimePolymorphism_1 extends MethodOverriding_1{  //Runtime Polymorphism is method overriding
     public void engine() {  // method name and parameters should be same
         System.out.println("Express engine");
     }
+
+
     public void cc(int num)
     {
         System.out.println("High CC");
@@ -11,10 +13,13 @@ public class RuntimePolymorphism_1 extends MethodOverriding_1 {  //Runtime Polym
     }
     public static void main(String[] args) {
 
+      //  MethodOverriding_1 mo = new MethodOverriding_1();
         RuntimePolymorphism_1 mo = new RuntimePolymorphism_1();
+
         {
             mo.engine();
             mo.engine();
+
             mo.cc(162);
         }
     }

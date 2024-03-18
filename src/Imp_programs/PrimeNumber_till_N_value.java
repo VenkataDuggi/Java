@@ -1,5 +1,7 @@
 package Imp_programs;
 
+import java.util.Scanner;
+
 public class PrimeNumber_till_N_value {
 
     public static void main(String[] args) {

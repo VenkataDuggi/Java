@@ -4,7 +4,7 @@ public class Second_Largest_Number {
 
     public static void main(String[] args) {
 
-        int arr[] = {34, 56, 234, 1, 0, 89};
+        int arr[] = {11, 1112, 11, 19, 1, 10};
         int temp = 0;
 
         for (int i = 0; i < arr.length; i++) {
@@ -21,7 +21,23 @@ public class Second_Largest_Number {
         System.out.print("\n");
 
         System.out.println("Second Largest Number in array is " +arr[1]);
+
+// The code below is for every digit is same
+        for (int i = 1; i < arr.length; i++) {
+            // If the element is not
+            // equal to largest element
+            if (arr[i] != arr[0]) {
+                System.out.printf("The second largest "
+                                + "element is %d\n",
+                        arr[i]);
+                return;
+            }
+        }
+
+        System.out.printf("There is no second "
+                + "largest element\n");
     }
-}
+    }
+
 
 

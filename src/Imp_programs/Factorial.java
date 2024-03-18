@@ -1,4 +1,4 @@
-package Others;
+package Imp_programs;
 
 import java.util.Scanner;
 

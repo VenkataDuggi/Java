@@ -10,10 +10,7 @@ public class All_Banks_2 {
         ICICI.Balance=456;
         ICICI.IFSC=3400012;
         ICICI.printdetails();
-
-
-
-
+        
 
         BankInstanceClass_2 HDFC = new BankInstanceClass_2();
         // HDFC.Bank="HDFC";   // In place of this SBI will be printed from default consrtuctor
