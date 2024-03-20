@@ -1,20 +1,28 @@
 package Basics;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class basic {
 
     public static void main(String[] args) {
 
+      List list = new ArrayList();
+      list.add("Hi");
 
-        if ((1 + 1 + 1 + 1 + 1) == 5) {
-            System.out.print("TRUE");
-        } else {
-            System.out.print("FALSE");
-        }
+      list.add("Bye");
+
+        System.out.println(list);
+        list.remove("Bye");
+        list.add(1,"Sye");
+        System.out.println(list);
     }
 
+
 }
+
+
+
 
 
 

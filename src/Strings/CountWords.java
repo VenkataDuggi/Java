@@ -1,4 +1,4 @@
-package Collections;
+package Strings;
 
 public class CountWords {
 
@@ -16,6 +16,7 @@ public static int count(String str){
 
     }
     return str.charAt(0)==' '?count:count+1;
+    //return count;
 }
     public static void main(String[] args) {
 

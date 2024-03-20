@@ -1,8 +1,8 @@
-package Collections;
+package Collections.List;
 
 import java.util.List;
 
-public class list {
+public class List_0 {
 
     public static void main(String [] args)
     {

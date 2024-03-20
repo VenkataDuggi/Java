@@ -1,4 +1,4 @@
-package Collections;
+package Collections.Map;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,7 +14,7 @@ public class hashmap {
         map.put("age","10");
         map.put("city","bangalore");
 
-        //System.out.println(map.get("Name"));
+        System.out.println(map.get("Name"));
 
         for(Map.Entry<String, String> value:map.entrySet()){
 

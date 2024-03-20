@@ -11,7 +11,7 @@ public class DemoConstructor {
 
 
         DemoConstructor demo = new DemoConstructor();
-        new DemoConstructor();  //We cac call constructor like this also
+        new DemoConstructor();  //We can call constructor like this also
 
         DemoConstructor DC = null;
 
