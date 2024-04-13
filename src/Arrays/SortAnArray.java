@@ -20,6 +20,7 @@ public class SortAnArray {
             }
             System.out.print("\n\n");
 
+            System.out.println("Elements of array sorted in Descending order: ");
             for (int i = arr.length-1; i >= 0; i--)
             {
                 System.out.print(arr[i] + " ");  //Descending order

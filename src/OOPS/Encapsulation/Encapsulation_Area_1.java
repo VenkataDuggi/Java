@@ -1,8 +1,7 @@
 package OOPS.Encapsulation;
 
 
-// Java Program to demonstrate
-// Java Encapsulation
+// Java Program to demonstrate Java Encapsulation
 
 // fields to calculate area
 class Encapsulation_Area_1 {

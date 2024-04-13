@@ -1,25 +1,42 @@
 package Basics;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class basic {
 
     public static void main(String[] args) {
 
-      List list = new ArrayList();
-      list.add("Hi");
 
-      list.add("Bye");
+        int arr[] = {4, 6, 1, 2, 0};
 
-        System.out.println(list);
-        list.remove("Bye");
-        list.add(1,"Sye");
-        System.out.println(list);
+
+
+        int temp =0;
+
+
+        for (int i = 0; i < arr.length;i++)
+        {
+
+            for(int j=i+1;j<arr.length;j++)
+            {
+                if(arr[i]<arr[j])
+                {
+
+                    temp=arr[i];
+                    arr[j]=arr[i];
+                    arr[i]=temp;
+
+                }
+            }
+
+
+        }System.out.println(arr[1]);
+
     }
 
-
 }
+
 
 
 
