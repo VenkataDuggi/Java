@@ -13,7 +13,6 @@ public class CapitalCharsCount {
 
     }
 
-
     public static void main(String[] args) {
 
         int res = CountUppercase("HelloWorld");
