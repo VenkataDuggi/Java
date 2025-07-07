@@ -17,8 +17,8 @@ public class SwappingTwoStrings {
         s1 = s1.substring(s2.length());
 
 
-        System.out.println("s1 =" + s1);
-        System.out.println("s2 =" + s2);
+        System.out.println("s1 = " + s1);
+        System.out.println("s2 = " + s2);
 
     }
 

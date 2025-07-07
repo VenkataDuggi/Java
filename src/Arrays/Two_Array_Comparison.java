@@ -1,19 +1,13 @@
 package Arrays;
-
 public class Two_Array_Comparison {
-
     public static void main(String[] args) {
-
         int arr[]={34, 56, 78, 99};
         int brr[]={34, 55, -1 ,99};
-
         if(arr.length == brr.length)
         {
             System.out.println("length is equal");
-
             for(int i=0;i<arr.length;i++)
             {
-
                 if(arr[i]==brr[i])
                 {
                     System.out.println("the values are equal under " + i +" index");
@@ -22,9 +16,7 @@ public class Two_Array_Comparison {
                 {
                     System.out.println("the values are not equal under  " +i +" index");
                 }
-
             }
-
         }
         else
         {
@@ -32,7 +24,6 @@ public class Two_Array_Comparison {
         }
     }
 }
-
 /*
 
 boolean result = Arrays.equals(a, b);

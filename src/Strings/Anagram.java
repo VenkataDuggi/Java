@@ -7,7 +7,7 @@ public class Anagram {
     public static void main(String[] args) {
 
         String str = "zrame";
-        String str1 = "yname";
+        String str1 = "arzme";
 
         char firststring[] = str.toCharArray();
         Arrays.sort(firststring);

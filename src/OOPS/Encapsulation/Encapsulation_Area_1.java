@@ -5,8 +5,8 @@ package OOPS.Encapsulation;
 
 // fields to calculate area
 class Encapsulation_Area_1 {
-    int length;
-    int breadth;
+   private int length;
+    private int breadth;
 
     // constructor to initialize values
     Encapsulation_Area_1(int length, int breadth)

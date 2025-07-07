@@ -1,41 +1,38 @@
 package Basics;
 
-
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class basic {
 
-    //This is sample sentence, this is another sentence here.
-
-    public static void main(String[] args) {
 
 
-        int count=0;
-        String s = "How are youu";
+    public static int uppercase(String str)
 
-        for(int i=0; i<s.length();i++) {
-
-            for(int j=i+1; j<s.length();j++)
+    {
+        int count =0;
+        for(int i=0;i<str.length();i++)
+        {
+            if(str.charAt(i)>='A' && str.charAt(i)<='Z')
             {
-                if(s.charAt(i)==s.charAt(j))
-                {
-                    System.out.println("Duplicate charcters "+s.charAt(j));
-                }
+                count++;
+            }
 
-        }
+        }return count;
 
 
     }
-     //   System.out.println("No.of.words" +count+1);
+    public static void main(String[] args) {
+
+        int count =0;
+      int result=  uppercase("HellO");
+        System.out.println(result);
+
 
 
 
     }
 
 }
-
-
-
-
-
 
 

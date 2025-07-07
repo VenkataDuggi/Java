@@ -2,10 +2,10 @@ package Strings;
 import java.io.*;
 import java.util.Arrays;
 import java.util.Collections;
-
+/*
 public class AnagramwithFunction {
 
-    public void anagramcheck(char[] firststring, char[] secondstring)
+ /*   public void anagramcheck(char[] firststring, char[] secondstring)
     {
         for(int i=0;i<firststring.length;i++)
         {
@@ -20,10 +20,10 @@ public class AnagramwithFunction {
     }
 
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
 
         String str1 = "name";
-        String str2 = "fame";
+        String str2 = "anme";
 
         char firststring[]= str1.toCharArray();
         char secondstring[]= str2.toCharArray();
@@ -36,3 +36,5 @@ public class AnagramwithFunction {
 
 
 }
+
+  */

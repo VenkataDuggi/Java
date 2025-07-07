@@ -4,7 +4,7 @@ public class Min_and_Max {
 
     public static void main(String[] args) {
 
-        int arr[]={4,3,56,78,2,3,456,77};
+        int arr[]={4,3,56,78,2,3,456,777};
 
         int min=arr[0];
         int max=arr[0];

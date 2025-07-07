@@ -19,8 +19,10 @@ public class CapitalCharsCount {
         System.out.println("No.of Uppercase characters is = "+res);
 
     }
-}
 
+
+
+}
 
 
 

@@ -7,6 +7,7 @@ public class Fail_Students {
 
         Scanner sc = new Scanner(System.in);
         float[] Marks = new float[6];
+
         System.out.println("Enter 6 Subject Marks");
         Marks[0]=sc.nextInt();
         Marks[1]=sc.nextInt();

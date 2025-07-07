@@ -6,10 +6,11 @@ public class ReverseNumber {
 
         int num =129123;
         int rev=0;
+        int rem =0;
         while(num!=0)
         {
-            int rem=num%10;
-            rev = num*10 + rem;
+            rem=num%10;
+            rev = rev*10 + rem;
             num = num/10;
 
         }

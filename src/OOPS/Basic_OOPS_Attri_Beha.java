@@ -26,7 +26,7 @@ public class Basic_OOPS_Attri_Beha {
    Boolean isMArried()
    {
       System.out.println("Not Married");
-      return true; // This need to be declared if return type is there
+      return true; // This is need to be declared if return type is there
    }
 
 }
